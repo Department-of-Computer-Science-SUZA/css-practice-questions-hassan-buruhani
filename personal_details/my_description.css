@@ -1,0 +1,39 @@
+body {
+    margin: 10px;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2f5;
+}
+h5 {
+    text-align: center;
+    color: darkgreen;
+}
+div {
+    width: 89%;
+    border: 0px solid grey;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 25px;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+<!-- #table {
+    justify-content: center;
+    align-items: center;
+} -->
+table, th, td {
+    border-bottom: 0px solid grey;
+    border-collapse: collapse;
+    padding: 10px;
+    margin: auto;
+}
+tr:nth-child(even) {
+    background-color: #ccc0c052;
+}
+table {
+    width: 90%;
+    
+}
+th {
+    text-align: left;
+}
